@@ -1,0 +1,32 @@
+{
+  "name": "gulp_projekt",
+  "version": "1.0.0",
+  "description": "A school project with Gulp.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yamo93/gulp_projekt.git"
+  },
+  "author": "Yamo Gebrewold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yamo93/gulp_projekt/issues"
+  },
+  "homepage": "https://github.com/Yamo93/gulp_projekt#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-fix": "^0.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0"
+  }
+}
