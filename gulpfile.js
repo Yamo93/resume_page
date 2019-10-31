@@ -66,7 +66,7 @@ function cleanPub() {
 
 // Konkatenerar och minifierar JS-filer och laddar om webbläsaren
 function jsTask() {
-    return src([paths.educationJs, paths.employmentJs, paths.projectJs])
+    return src(paths.jsFiles)
         .pipe(concat('main.js'))
         .pipe(babel({
             presets: ['@babel/env']

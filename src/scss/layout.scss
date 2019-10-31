@@ -124,6 +124,11 @@
         @include title;
     }
 
+    &__message {
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+
     .wrapper {
         margin: 0 auto;
         width: 90%;
@@ -172,6 +177,11 @@
 
     &__title {
         @include title;
+    }
+
+    &__message {
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
     }
 
     &__intro {
