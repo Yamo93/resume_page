@@ -1,7 +1,10 @@
 // Variabler
 const localEducationURL = 'http://localhost/resume_admin/pub/api/education';
+const publicEducationURL = 'http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/education.php';
 const localEmploymentURL = 'http://localhost/resume_admin/pub/api/employment';
+const publicEmploymentURL = 'http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/employment.php';
 const localProjectURL = 'http://localhost/resume_admin/pub/api/project';
+const publicProjectURL = 'http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/project.php';
 let education = [];
 let employments = [];
 let projects = [];
@@ -20,7 +23,7 @@ function fetchEducation() {
     document.querySelector('.experience__message').style.display = 'none';
 
     // Hämta kurser via API:et
-    fetch(localEducationURL, {
+    fetch(publicEducationURL, {
         method: 'get'
     })
     .then(res => res.json())
@@ -65,7 +68,7 @@ function fetchEmployments() {
     document.querySelector('.employment__message').style.display = 'none';
 
     // Hämta kurser via API:et
-    fetch(localEmploymentURL, {
+    fetch(publicEmploymentURL, {
         method: 'get'
     })
     .then(res => res.json())
@@ -110,7 +113,7 @@ function fetchProjects() {
     document.querySelector('.projects__intro').style.display = 'none';
 
     // Hämta kurser via API:et
-    fetch(localProjectURL, {
+    fetch(publicProjectURL, {
         method: 'get'
     })
     .then(res => res.json())

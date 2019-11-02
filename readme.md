@@ -1,3 +1,7 @@
-# En CV-sida
+# Projekt (Webbutveckling III)
 
-Detta repo är en del av ett skolprojekt där jag skapar en CV-sida som konsumerar olika REST-API:er skapade med PHP för att hantera olika typer av innehåll (utbildning, anställningar och projekt).
+Detta repo består utav en CV-sida som konsumerar olika REST-API:er skapade med PHP för att presentera och hantera olika typer av innehåll (utbildning, anställningar och projekt). CV-sidan skapades med HTML och SASS inklusive JavaScript för att konsumera webbtjänsterna. Nedan följer länkar till webbtjänsterna:
+
+[Länk till webbtjänsten "education" (REST API)](http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/education.php)
+[Länk till webbtjänsten "employment" (REST API)](http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/employment.php)
+[Länk till webbtjänsten "project" (REST API)](http://studenter.miun.se/~yage1800/dt173g/resume-dashboard/api/project.php)
